@@ -37,7 +37,7 @@ The project will require the following libraries to load images in ASCII format 
 
 - Add your audio file in the folder that you have created
 - The audio file should be a .wav file, you can use this [WAV Convertor](https://www.freeconvert.com/wav-converter) to convert an audio to .wav file
-- In the <b>ImageDisplay.cs</b> file
+- In the <b>AudioPlayer.cs</b> file
     ```
     string filePath = "files/welcome_audio.wav"
     ```
