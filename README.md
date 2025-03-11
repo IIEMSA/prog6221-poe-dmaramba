@@ -1,6 +1,6 @@
-# POE Project template
+# Introduction
 
-This project template can be used as a guideline for your POE project. If you have created a new project , use Visual Studio 2022 to create a new project, give your project a name.
+This project saves as a template that can be used as a guideline for your POE project. If you have not created a new project , use Visual Studio 2022 to create a new project, give your project a name.
 
 - Avoid ***numbers and spaces*** in the name
 - Capitalise each first letter of every word on your project name e.g if your project is named chatboxsybersecurity , the name should be ChatBotCyberSecurity
@@ -43,4 +43,4 @@ The project will require the following libraries to load images in ASCII format 
     ```
     - replace the <b>files/welcome_audio.wav</b> with your folder and the name of your logo
  
-![Happy coding](https://play-lh.googleusercontent.com/t1lEtIZyIvRioM6EFim6YuHwbpRRQgYPHkV4q3FqvVfSTr_iohPHIQmVV4LJDgkqF4OI)
+ ![happy coding](ChatBotCyberSecurity/files/happy_coding.jpg)
