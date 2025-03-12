@@ -15,7 +15,7 @@ namespace ChatBotCyberSecurity
         {
             string imagePath = "files/chatbot.png"; // Change to your image path
             int width = 60; // Adjust as needed
-            int height = 20; // Adjust as needed
+            int height = 30; // Adjust as needed
 
             Console.OutputEncoding = System.Text.Encoding.UTF8;
             ConvertImageToAscii(imagePath, width, height);

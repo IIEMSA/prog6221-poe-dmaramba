@@ -10,4 +10,5 @@ audioPlayer.Play();
 ImageDisplay display = new ImageDisplay();
 display.Show();
 
+MenuDisplay.LoadMenu();
 Console.ReadKey();
