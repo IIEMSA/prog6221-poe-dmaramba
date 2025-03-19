@@ -11,10 +11,21 @@ namespace ChatBotCyberSecurity
         public List<ChatBotData> data = new List<ChatBotData>();
         public void LoadData()
         {
+            
             // read from file
+            if (File.Exists("files/chatbotdata.txt"))
+            {
+                string[] lines = File.ReadAllLines("files/chatbotdata.txt");
+                foreach (string line in lines)
+                {
+                    string[] parts = line.Split('|'); // Use '|' to separate subject and content
+                    if (parts.Length == 2)
+                    {
+                        data.Add(new ChatBotData { Content = parts[1].Trim(), Subject = parts[0] });
 
-            data.Add(new ChatBotData { Content = "Testing password security", Subject = "Security", Tags = "password, security" });
-            data.Add(new ChatBotData { Content = "Email ", Subject = "Email", Tags = "email, email" });
+                    }
+                }
+            }
         }
 
     }

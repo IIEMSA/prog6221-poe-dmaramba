@@ -9,7 +9,8 @@ namespace ChatBotCyberSecurity
     internal class ChatBotData
     {
         public string Subject {get;set;}
-        public string Tags {get;set;}
         public string Content { get;set;}
+
+
     }
 }

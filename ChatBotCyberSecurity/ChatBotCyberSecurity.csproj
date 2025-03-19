@@ -16,6 +16,9 @@
     <None Update="files\chatbot.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="files\chatbotdata.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="files\welcome_audio.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

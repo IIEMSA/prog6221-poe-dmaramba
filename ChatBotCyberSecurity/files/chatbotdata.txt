@@ -1,0 +1,2 @@
+phishing|📧 Beware of emails asking for personal information. Always verify the sender!
+testing chatbot| I was just testing

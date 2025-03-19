@@ -11,8 +11,6 @@ ImageDisplay display = new ImageDisplay();
 display.Show();
 
 //load 
-Library library = new Library();
-library.LoadData();
 Greeting greeting = new Greeting();
 greeting.Greet();
 Console.ReadKey();

@@ -13,18 +13,13 @@ namespace ChatBotCyberSecurity
 
         public void Greet()
         {
-            if (!UseGreeted)
-            {
-                Console.WriteLine("Hi, I am CyberBot, may I please know you");
-                Name = Console.ReadLine();
-                UseGreeted = true;
-                Console.WriteLine($"Nice knowing you {Name}. How can I be of aassistance today");
-                MenuDisplay.LoadMenu();
-            }
-            else
-            {
-                MenuDisplay.LoadMenu();
-            }
+
+            Console.WriteLine("Hi, I am CyberBot, may I please know you");
+            Name = Console.ReadLine();
+            UseGreeted = true;
+            Console.WriteLine($"Nice knowing you {Name}. How can I be of aassistance today");
+            MenuDisplay.LoadMenu(Name);
+
 
         }
     }
